@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient(135deg,#000000,rgb(155, 0, 0),#f79800);
+    font-family:Poppins;
+    color:white;
+}
+.navbar{
+    display:flex;
+    align-content:center;
+    /*background-color:#3c1212;*/
+    justify-content: space-between;
+    padding: 5px 5px;
+    margin:20;
+    background:linear-gradient(135deg,#000000,rgb(155, 0, 0),#f79800);
+
+}
+.logo{
+    display:flex;
+    color: white;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    
+}
+
+.nav-links li a{
+    color:white;
+    text-decoration: none;
+}
+.inp{
+    display:flex;
+    margin:10;
+    color:rgb(0, 0, 0);
+    align-items: center;
+}
+.sub{
+    display:flex;
+    margin:10;
+
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
